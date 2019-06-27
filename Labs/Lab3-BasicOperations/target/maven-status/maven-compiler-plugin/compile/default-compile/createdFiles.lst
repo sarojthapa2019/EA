@@ -1,0 +1,10 @@
+edu\mum\dao\impl\GenericDaoImpl.class
+edu\mum\dao\impl\UserDaoImpl.class
+edu\mum\dao\GenericDao.class
+edu\mum\domain\UserCredentials.class
+edu\mum\main\Main.class
+edu\mum\service\UserService.class
+edu\mum\service\impl\UserServiceImpl.class
+edu\mum\dao\UserDao.class
+edu\mum\domain\User.class
+edu\mum\domain\Authority.class

@@ -17,17 +17,14 @@ public class UserServiceImpl implements edu.mum.service.UserService {
  	@Autowired
 	private UserDao userDao;
 
-	@Transactional
-     public void save( User user) {  		
+ 	public void save( User user) {
   		userDao.save(user);
  	}
 
-	@Transactional
 	public List<User> findAll() {
 		return (List<User>)userDao.findAll();
 	}
 
-	@Transactional
 	public User findByEmail(String email) {
 		return userDao.findByEmail(email);
 	}
