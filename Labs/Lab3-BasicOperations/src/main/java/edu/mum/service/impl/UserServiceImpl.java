@@ -28,6 +28,10 @@ public class UserServiceImpl implements edu.mum.service.UserService {
 	public User findByEmail(String email) {
 		return userDao.findByEmail(email);
 	}
- 
+
+	public void update(User user) {
+		userDao.update(user);
+	}
+
 
 }

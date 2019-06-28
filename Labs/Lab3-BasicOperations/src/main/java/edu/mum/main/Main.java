@@ -55,7 +55,8 @@ public class Main {
 
         u3.setFirstName("Ram");
 
-        
+        userService.update(u3);
+
         List<User> userList = userService.findAll();
         for(User u0:userList) {
             System.out.println("User:"+u0.getFirstName());
