@@ -23,7 +23,7 @@ public class Owner {
 	@OneToMany (cascade={CascadeType.PERSIST})
 	@JoinColumn (name="clientid")
 //	@LazyCollection(LazyCollectionOption.EXTRA)
-	@BatchSize(size = 500)
+	@BatchSize(size = 47)
     private List<Pet> pets;
     
 	public Owner() {
