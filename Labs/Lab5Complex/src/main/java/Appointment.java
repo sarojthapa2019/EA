@@ -7,10 +7,12 @@ public class Appointment {
     private Long id;
     private String appdate;
     @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name="patient", referencedColumnName = "id")
     private Patient patient;
     @Embedded
     private Payment payment;
     @ManyToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name="doctor", referencedColumnName = "id")
     private Doctor doctor;
 
     public Appointment(){}

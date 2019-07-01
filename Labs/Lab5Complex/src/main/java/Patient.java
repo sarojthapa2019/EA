@@ -1,5 +1,4 @@
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity
 @SecondaryTable(name="Address", pkJoinColumns={

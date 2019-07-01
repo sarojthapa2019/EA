@@ -24,7 +24,7 @@ public class App {
 
         // a) TODO: Flights leaving USA capacity > 500
         System.out.println("Question A:");
-        List<Flight> flights = em.createQuery("select f from Flight f Join f.airplane ap Where ap.capacity>500", Flight.class).getResultList();
+        List<Flight> flights = em.createQuery("select f from Flight f Join f.airplane ap Join f.origin apt1 Join f.destination apt2 Where ap.capacity>500 and apt1.country='USA' and apt2.country<>'USA'", Flight.class).getResultList();
         System.out.printf("%-9s%-31s%-31s\n", "Flight:", "Departs:",
                 "Arrives:");
         for (Flight flight : flights) {
