@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Lab4Associations2" />
-        <module name="Lab4-Associations-2" />
+        <module name="W2D3-JPQL" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="W2D3-JPQL" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
