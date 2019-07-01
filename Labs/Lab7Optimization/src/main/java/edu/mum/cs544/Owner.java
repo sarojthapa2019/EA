@@ -1,5 +1,9 @@
 package edu.mum.cs544;
 
+import org.hibernate.annotations.BatchSize;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
+
 import java.util.List;
 
 import javax.persistence.CascadeType;
@@ -18,6 +22,8 @@ public class Owner {
     private String name;
 	@OneToMany (cascade={CascadeType.PERSIST})
 	@JoinColumn (name="clientid")
+//	@LazyCollection(LazyCollectionOption.EXTRA)
+	@BatchSize(size = 500)
     private List<Pet> pets;
     
 	public Owner() {

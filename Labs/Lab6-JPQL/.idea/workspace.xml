@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/../Lab5Complex/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5Complex/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5Complex/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5Complex/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5Complex/src/main/java/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab5Complex/src/main/java/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5Complex/src/main/java/Appointment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5Complex/src/main/java/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5Complex/src/main/java/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5Complex/target/classes/Address.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab5Complex/target/classes/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab5Complex/target/classes/Patient.class" afterDir="false" />
@@ -270,16 +271,15 @@
       <option name="presentableId" value="Default" />
       <updated>1561928625538</updated>
       <workItem from="1561928642593" duration="3660000" />
-      <workItem from="1562006316291" duration="768000" />
+      <workItem from="1562006316291" duration="1084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4428000" />
+    <option name="totallyTimeSpent" value="4744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -295,7 +295,7 @@
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.14238952" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.14238952" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32843137" />
