@@ -37,4 +37,11 @@ public class Pet {
         this.name = name;
     }
 
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }

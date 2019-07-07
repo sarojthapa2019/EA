@@ -1,8 +1,6 @@
 package edu.mum.cs544;
 
-import org.hibernate.annotations.BatchSize;
-import org.hibernate.annotations.LazyCollection;
-import org.hibernate.annotations.LazyCollectionOption;
+import org.hibernate.annotations.*;
 
 import java.util.List;
 
@@ -20,10 +18,22 @@ public class Owner {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
+
+	@Override
+	public String toString() {
+		return "Owner{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", pets=" + pets +
+				'}';
+	}
+
 	@OneToMany (cascade={CascadeType.PERSIST})
 	@JoinColumn (name="clientid")
+
 //	@LazyCollection(LazyCollectionOption.EXTRA)
-	@BatchSize(size = 47)
+//	@BatchSize(size = 47)
+//	@Fetch(FetchMode.SUBSELECT)
     private List<Pet> pets;
     
 	public Owner() {

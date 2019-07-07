@@ -18,10 +18,11 @@ public class App {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
 
-        TypedQuery<Owner> query = em.createQuery("from Owner", Owner.class);
+        TypedQuery<Owner> query = em.createQuery("select O from Owner O Join O.pets", Owner.class);
+        query.setMaxResults(2);
         List<Owner> ownerlist = query.getResultList();
         for (Owner o : ownerlist) {
-            o.getPets().size();
+            System.out.println(o);
         }
 
         em.getTransaction().commit();
