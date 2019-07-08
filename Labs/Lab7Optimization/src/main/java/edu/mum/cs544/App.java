@@ -2,10 +2,7 @@ package edu.mum.cs544;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
-import javax.persistence.TypedQuery;
+import javax.persistence.*;
 
 public class App {
 
@@ -18,8 +15,13 @@ public class App {
         EntityManager em = emf.createEntityManager();
         em.getTransaction().begin();
 
-        TypedQuery<Owner> query = em.createQuery("select O from Owner O Join O.pets", Owner.class);
-        query.setMaxResults(2);
+        EntityGraph<Owner> graph = em.createEntityGraph(Owner.class);
+        graph.addAttributeNodes("pets");
+//      TypedQuery<Owner> query = em.createNamedQuery("Owner.ownerList", Owner.class);
+//      TypedQuery<Owner> query = em.createQuery("select O from Owner O Join Fetch O.pets", Owner.class);
+        TypedQuery<Owner> query = em.createQuery("from Owner", Owner.class);
+        query.setHint("javax.persistence.fetchgraph",graph);
+//        query.setMaxResults(2);
         List<Owner> ownerlist = query.getResultList();
         for (Owner o : ownerlist) {
             System.out.println(o);

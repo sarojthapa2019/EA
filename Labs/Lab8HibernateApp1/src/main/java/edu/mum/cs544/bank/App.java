@@ -7,11 +7,14 @@ import edu.mum.cs544.bank.domain.AccountEntry;
 import edu.mum.cs544.bank.domain.Customer;
 import edu.mum.cs544.bank.service.AccountService;
 import edu.mum.cs544.bank.service.IAccountService;
+import edu.mum.cs544.bank.service.JPAAccountService;
+import edu.mum.cs544.bank.service.JPAAccountServiceB;
 
 
 public class App {
     public static void main(String[] args) {
-        IAccountService accountService = new AccountService();
+//        IAccountService accountService = new JPAAccountService();
+        IAccountService accountService = new JPAAccountServiceB();
         // create 2 accounts;
         accountService.createAccount(1263862, "Frank Brown");
         accountService.createAccount(4253892, "John Doe");

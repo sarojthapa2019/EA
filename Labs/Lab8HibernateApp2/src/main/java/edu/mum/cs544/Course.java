@@ -1,6 +1,8 @@
 package edu.mum.cs544;
 
+@Entity
 public class Course {
+	@Id
 	private long coursenumber;
 	private String name;
 	private String grade;
