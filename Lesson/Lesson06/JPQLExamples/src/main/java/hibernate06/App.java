@@ -417,6 +417,16 @@ public class App {
         em.close();
     }
 
+    public void myquery(){
+        EntityManager em = emf.createEntityManager();
+        Account a = new Account();
+        em.persist(a);
+        em.clear();
+        Account a2 = em.find(a.getId());
+        a2.setBalance(100);
+        em.close()
+    }
+
 
     public static void main(String[] args) throws ParseException {
         EntityManager em = emf.createEntityManager();
@@ -434,6 +444,7 @@ public class App {
 //        criteria();
 //        storedProcedure();
 //        nativeQuery();
+        myquery();
         emf.close();
     }
 
