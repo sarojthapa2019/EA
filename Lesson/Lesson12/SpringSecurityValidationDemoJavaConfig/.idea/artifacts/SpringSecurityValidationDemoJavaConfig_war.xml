@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringSecurityValidationDemoJavaConfig:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringSecurityValidationDemoJavaConfig</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringSecurityValidationDemoJavaConfig.war">
+      <element id="artifact" artifact-name="SpringSecurityValidationDemoJavaConfig:war exploded" />
+    </root>
+  </artifact>
+</component>
