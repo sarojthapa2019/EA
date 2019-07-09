@@ -18,15 +18,15 @@ public class StudentDAO {
 //		student.addCourse(course2);
 //		studentlist.add(student);
 
-        em = EntityManagerHelper.getEntityManager();
-		Student student = new Student(12345, "Frank", "Brown");
-		Course course1 = new Course(1101, "Java", "A");
-		Course course2 = new Course(1102, "Math", "B-");
-		student.addCourse(course1);
-		student.addCourse(course2);
-		em.getTransaction().begin();
-		em.persist(student);
-		em.getTransaction().commit();
+//        em = EntityManagerHelper.getEntityManager();
+//		Student student = new Student(12345, "Frank", "Brown");
+//		Course course1 = new Course(1101, "Java", "A");
+//		Course course2 = new Course(1102, "Math", "B-");
+//		student.addCourse(course1);
+//		student.addCourse(course2);
+//		em.getTransaction().begin();
+//		em.persist(student);
+//		em.getTransaction().commit();
 	}
 
 	public Student load(long studentid) {
@@ -39,7 +39,7 @@ public class StudentDAO {
         em = EntityManagerHelper.getEntityManager();
         EntityGraph<Student> graph = em.createEntityGraph(Student.class);
         graph.addAttributeNodes("courselist");
-        TypedQuery<Student> query = em.createQuery("from Student where studentid:id",Student.class);
+        TypedQuery<Student> query = em.createQuery("from Student where studentid=:id",Student.class);
         query.setParameter("id",studentid);
         query.setHint("javax.persistence.fetchgraph",graph);
         return query.getSingleResult();
