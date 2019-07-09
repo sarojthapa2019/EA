@@ -1,13 +1,17 @@
 package edu.mum.cs544;
 
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Collection;
 
+@Entity
 public class Student {
+    @Id
 	private long studentid;
 	private String firstname;
 	private String lastname;
-	
+
+	@OneToMany(cascade = CascadeType.ALL)
 	private Collection<Course> courselist = new ArrayList<Course>();
 
 	public Student() {
