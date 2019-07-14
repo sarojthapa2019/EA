@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a32e5ad9-f313-4d42-942b-181c91c43afd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/.idea/artifacts/Lab11_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/.idea/artifacts/Lab11_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/Lab11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war/Lab11_war.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/classes/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/classes/cs544/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/classes/cs544/BookDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/classes/cs544/BookService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/classes/cs544/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/classes/cs544/IBookDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/classes/cs544/MyWebAppInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/hibernate-core-5.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/log4j-api-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/log4j-core-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/bookDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/bookList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/out/artifacts/Lab11_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/java/cs544/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/java/cs544/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/java/cs544/BookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/java/cs544/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/java/cs544/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/java/cs544/IBookDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/java/cs544/MyWebAppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/resources/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/webapp/Books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/webapp/bookDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/webapp/bookList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab11/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/Lab12 Security &amp; Validation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/artifacts/W3D1_MVC_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/artifacts/W3D1_MVC_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/W3D1-MVC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/java/edu/mum/cs544/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/java/edu/mum/cs544/CarController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/java/edu/mum/cs544/CarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/java/edu/mum/cs544/CarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/java/edu/mum/cs544/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/java/edu/mum/cs544/ICarDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/java/edu/mum/cs544/MyWebAppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/webapp/WEB-INF/classes/log4j.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/webapp/WEB-INF/view/carDetail.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Lab12/Lab12/W3D1-MVC/src/main/webapp/WEB-INF/view/carList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/.idea/Lab10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__junit_junit_3_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/W1D3-AOP-1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/CustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/EmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/ICustomerDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/IEmailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/java/edu/mum/cs544/StopwatchAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/main/resources/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/src/test/java/cs544/exercise13_1/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/CustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/EmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/ICustomerDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/IEmailSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/LogAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/edu/mum/cs544/StopwatchAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/classes/springconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-1/target/test-classes/cs544/exercise13_1/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_springframework_spring_aop_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_springframework_spring_beans_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_springframework_spring_context_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_springframework_spring_core_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_springframework_spring_expression_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/W1D3-AOP-2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/aop/DaoLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/aop/JmsLoggingAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/aop/ServiceTimerAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/dao/IAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/jms/IJMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/jms/JMSSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/logging/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/java/edu/mum/cs544/bank/service/ICurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/aop/DaoLoggingAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/aop/JmsLoggingAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/aop/ServiceTimerAdvice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/dao/AccountDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/dao/IAccountDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/domain/AccountEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/jms/IJMSSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/jms/JMSSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/logging/ILogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/logging/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/service/CurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/edu/mum/cs544/bank/service/ICurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab10/Lab10-AOP-2/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/Lab7/Lab7Optimization/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/Lab7/Lab7Optimization/src/main/java/edu/mum/cs544/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/Lab7/Lab7Optimization/src/main/java/edu/mum/cs544/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/Lab7/Lab7Optimization/src/main/java/edu/mum/cs544/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/Lab7/Lab7Optimization/src/main/java/edu/mum/cs544/Populate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/Lab7/Lab7Optimization/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab7/Lab7/Lab7Optimization/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/Lab8HibernateApp1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/EMF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/EntityManagerHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/dao/AccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/dao/IAccountDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/dao/JPAAccountDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/AccountEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/logging/ILogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/logging/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/service/AccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/service/CurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/service/IAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/service/ICurrencyConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/service/JPAAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/java/edu/mum/cs544/bank/service/JPAAccountServiceB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/EMF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/EntityManagerHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/dao/AccountDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/dao/IAccountDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/dao/JPAAccountDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/domain/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/domain/AccountEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/logging/ILogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/logging/Logger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/service/AccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/service/CurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/service/IAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/service/ICurrencyConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/service/JPAAccountService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/edu/mum/cs544/bank/service/JPAAccountServiceB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp1/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/artifacts/Lab8HibernateApp2_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/artifacts/Lab8HibernateApp2_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/Lab8HibernateApp2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/java/edu/mum/cs544/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/java/edu/mum/cs544/EMF.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/java/edu/mum/cs544/EntityManagerHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/java/edu/mum/cs544/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/java/edu/mum/cs544/StudentDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/java/edu/mum/cs544/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/java/edu/mum/cs544/StudentsCourseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/resources/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/resources/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/webapp/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/src/main/webapp/student.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/edu/mum/cs544/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/edu/mum/cs544/EMF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/edu/mum/cs544/EntityManagerHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/edu/mum/cs544/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/edu/mum/cs544/StudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/edu/mum/cs544/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/edu/mum/cs544/StudentsCourseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/META-INF/context.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/edu/mum/cs544/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/edu/mum/cs544/EMF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/edu/mum/cs544/EntityManagerHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/edu/mum/cs544/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/edu/mum/cs544/StudentDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/edu/mum/cs544/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/edu/mum/cs544/StudentsCourseServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/import.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/classes/log4j2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/byte-buddy-1.9.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/classmate-1.3.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/hibernate-core-5.4.3.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/jaxb-api-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/log4j-api-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/log4j-core-2.11.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/lombok-1.18.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/mysql-connector-java-8.0.16.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/protobuf-java-3.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/entitymanagerinview/student.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab8/Lab8/Lab8HibernateApp2/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson09/springhibernatejavaconfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson09/springhibernatejavaconfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/src/main/java/cs544/spring40/aop/terms/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/src/main/java/cs544/spring40/aop/terms/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/src/main/java/cs544/spring40/aop/terms/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/src/main/java/cs544/spring40/aop/terms/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/src/main/java/cs544/spring40/aop/terms/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/src/main/java/cs544/spring40/aop/terms/LogAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring40/aop/terms/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring40/aop/terms/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring40/aop/terms/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring40/aop/terms/CustomerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring40/aop/terms/LogAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring40/aop/terms/LogAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring41/aop/advices/TestAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring41/aop/advices/TestAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring43/aop/data/CalcAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring43/aop/data/CalcAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring43/aop/data/InjectAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring43/aop/data/InjectAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring43/aop/data/TestAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson10/AOPDemo/target/classes/cs544/spring43/aop/data/TestAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/src/main/java/cs544/config/MyWebAppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/src/main/java/cs544/config/MyWebAppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/src/main/java/cs544/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/src/main/java/cs544/config/RootConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig/WEB-INF/classes/cs544/config/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig/WEB-INF/classes/cs544/config/RootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig/WEB-INF/classes/cs544/domain/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/SpringMVCDataJavaConfig/WEB-INF/classes/cs544/domain/Car.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/classes/cs544/config/RootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/classes/cs544/config/RootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/classes/cs544/domain/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Lesson/Lesson11/SpringMVCDataJavaConfig/target/classes/cs544/domain/Car.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/MyWebAppInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bookDetail.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="530">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/BookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/IBookDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/W3D1-Data.iml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/W3D1_Data_war.xml" />
+        <option value="$PROJECT_DIR$/.idea/artifacts/W3D1_Data_war_exploded.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/encodings.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_7.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_15.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_web_api_6_0.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_10.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_2.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_3.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_1.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_8_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" />
+        <option value="$PROJECT_DIR$/../W3D1-MVC/W3D1-MVC.iml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="mum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="mum" type="462c0819:PsiDirectoryNode" />
+              <item name="cs544" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="W3D1-Data" type="b2602c69:ProjectViewProjectNode" />
+              <item name="W3D1-Data" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Lab12/W3D2-SEC" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a32e5ad9-f313-4d42-942b-181c91c43afd" name="Default Changelist" comment="" />
+      <created>1563129784375</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563129784375</updated>
+      <workItem from="1563129788363" duration="677000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="677000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="JSF" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="CDI" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/MyWebAppInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/bookDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/IBookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/mum/cs544/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -3,9 +3,8 @@ package cs544.spring40.aop.terms;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
 @Aspect
@@ -33,6 +32,19 @@ public class LogAspect {
 	@After("execution(* *(..))")
 	public void logTargetAfter(JoinPoint joinpoint) {
 		logger.warn("Just execed a method on: " + joinpoint.getTarget());
+	}
+
+	@Around("execution(* *(..))")
+	public Object logTargetAround(ProceedingJoinPoint pjp) throws Throwable {
+		logger.warn("Before inside around");
+		Object obj = pjp.proceed();
+		logger.warn("After inside around");
+		return obj;
+	}
+
+	@AfterReturning(pointcut = "execution(* *(..))")
+	public void afterRet(JoinPoint jp){
+		logger.warn("After returning");
 	}
 
 }

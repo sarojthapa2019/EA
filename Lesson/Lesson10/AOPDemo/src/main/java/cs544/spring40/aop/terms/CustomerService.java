@@ -11,6 +11,8 @@ public class CustomerService implements ICustomerService {
 	@Override
 	public void doSomething() {
 		System.out.println("something");
+		otherThing();
+//		return "test";
 	}
 	/* (non-Javadoc)
 	 * @see cs544.spring40.aop.terms.ICustomerService#otherThing()

@@ -10,6 +10,7 @@ public class App {
     //context = new AnnotationConfigApplicationContext(Config.class);
     ICustomerService cs = context.getBean("customerService", ICustomerService.class);
     cs.doSomething();
+   // cs.otherThing();
     
     context.close();
   }
