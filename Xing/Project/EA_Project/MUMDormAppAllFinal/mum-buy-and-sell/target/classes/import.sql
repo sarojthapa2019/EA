@@ -1,0 +1,27 @@
+INSERT INTO role VALUES(NULL, 'ADMIN');
+INSERT INTO role VALUES(NULL, 'USER');
+INSERT INTO role VALUES(NULL, 'GUEST');
+INSERT INTO user VALUES(NULL, 'test@test.com', 'test','test',7);
+INSERT INTO address VALUES(NULL, '1000N 4th steet', 140, 222);
+INSERT INTO user VALUES(NULL, 'test1@test.com', 'test1', 'test1',1);
+INSERT INTO user VALUES(NULL, 'test2@test.com', 'test2', 'test2',2);
+INSERT INTO address VALUES(NULL, '1000N 4th steet', 140, 109);
+INSERT INTO address VALUES(NULL, '1000N 4th steet', 144, 209);
+INSERT INTO user VALUES(NULL, 'student1@test.com', 'student1', 'student1',3);
+INSERT INTO user VALUES(NULL, 'student2@test.com', 'student2', 'student2',4);
+INSERT INTO address VALUES(NULL, '1000N 4th steet', 141, 313);
+INSERT INTO address VALUES(NULL, '1000N 4th steet', 142, 212);
+INSERT INTO user VALUES(NULL, 'student3@test.com', 'student3', 'student3',5);
+INSERT INTO user VALUES(NULL, 'student4@test.com', 'student4', 'student4',6);
+INSERT INTO address VALUES(NULL, '1000N 4th steet', 143, 301);
+INSERT INTO address VALUES(NULL, '1000N 4th steet', 144, 210);
+
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('1', '1');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('1', '2');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('1', '3');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('2', '2');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('3', '3');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('4', '2');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('5', '2');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('6', '2');
+INSERT INTO `mumdormapp`.`user_role` (`uid`, `rid`) VALUES ('7', '2');

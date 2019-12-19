@@ -1,0 +1,65 @@
+Spring batch
+
+Architecture -> fundamental structure choices that are costly to chabge once implemented
+
+
+Architectural Patterns
+Plugin -> Eclipse 
+kernel is micro kernel. 
+
+Layered 
+
+Event Driven -> Core communication is based on events. Generate an event and perform action
+
+Services -> SOA dependent more on broker / single point of failure
+-> Micro services is more fine grain / tried to make the broker as dumb as possible.
+
+Peer to peer -> connect directly to the destination machine
+
+Serverless -> only care about function
+
+To make single node serve for more reads and writes
+-> Create fragments of module
+-> Load Balancing (works well for read operation/ for stateless operation)
+->The problem will be if we want to write 
+
+The solutions
+horizontal scaling -> more servers but not bigger - stateless
+vertical - > divide the functionality'
+z - axis -> data partitioning -> state - save partitcular data in one server and other in other servers
+
+Content delivery network -> fetches data from the nearet server
+
+Cannot just load balance for stateful operation
+
+Docker
+
+To scale a state
+We can create replicas 
+leader election / rotation
+conflict resolution
+partitioning
+
+Two phase commit (transcation is managed following ACID)
+Latency
+Consensus problem
+less consistency = high availabiliy
+
+Project
+Restful API
+load file in a batch file into MySql
+do cron job (scheduler)
+Trigger Api (Secure) -> Authetication/ Authorization -> only accessible by Admin
+Modeule for spring batch
+spring security
+Restful Controller
+Orm Hibernate
+
+Deployment: Docker
+Docker compose
+
+File is about 
+.csv file called student.csv
+first name, last name, Cgpa. age, 
+
+Table has birthdate instead as age

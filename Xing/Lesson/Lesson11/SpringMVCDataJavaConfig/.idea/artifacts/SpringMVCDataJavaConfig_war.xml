@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringMVCDataJavaConfig:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SpringMVCDataJavaConfig</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="SpringMVCDataJavaConfig.war">
+      <element id="artifact" artifact-name="SpringMVCDataJavaConfig:war exploded" />
+    </root>
+  </artifact>
+</component>

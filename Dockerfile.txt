@@ -1,0 +1,101 @@
+# Start with a base image containing Java runtime
+FROM openjdk:8-jdk-alpine
+
+# Add Maintainer Info
+LABEL maintainer="sarose301@gmail.com"
+
+# Add a volume pointing to /tmp
+VOLUME /tmp
+
+# Make port 8080 available to the world outside this container
+EXPOSE 8080
+
+# The application's jar file
+ARG JAR_FILE=target/dockerDemo.jar
+
+# Add the application's jar to the container
+ADD ${JAR_FILE} dockerDemo.jar
+
+# Run the jar file 
+ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/dockerDemo.jar"]
+
+
+
+
+
+Commands: for building docker images
+mvn clean package
+docker build -t dockerdemo . or docker build . -t batchjob
+
+for running docker images
+docker run -p 8888:8086 --name batchjob 
+
+To link another container
+docker run -p 8888:8888 --name batchjob --link mysql-standalone:mysql -d batchjob
+
+To view the logs
+docker logs mysql-standalone 
+docker logs batchjob
+
+stop the container
+docker stop container_name
+
+To remove the container
+docker rm container_name
+or
+docker container rm volume_name(conainer_name)
+
+To remove images
+docker image rm image_name
+
+For setting up mysql db
+install mysql image and
+docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=springbatchjob_db -e MYSQL_USER=batchjob_sys -e MYSQL_PASSWORD=12345 -d mysql:latest
+
+
+for browsing
+w3m www.url.com
+
+A valid Yml file (docker-compose.yml)
+
+version: "3"
+services: 
+  db: 
+    environment: 
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=springbatchjob_db
+      - MYSQL_USER=batchjob_sys
+      - MYSQL_PASSWORD=12345
+    image: mysql
+    ports: 
+      - 3306:3306
+        
+  web: 
+    depends_on: 
+      - db
+    environment: 
+      - DATABASE_HOST=db
+      - DATABASE_USER=batchjob_sys
+      - DATABASE_PASSWORD=12345
+      - DATABASE_NAME=springbatchjob_db
+      - DATABASE_PORT=3306
+    image: batchjob
+    ports: 
+      - 8888:8888
+        
+
+
+
+For pushing to dockerhub
+
+and tag your image
+
+docker tag bb38976d03cf yourhubusername/verse_gapminder:firsttry
+
+The number must match the image ID and :firsttry is the tag. In general, a good choice for a tag is something that will help you understand what this container should be used in conjunction with, or what it represents. If this container contains the analysis for a paper, consider using that paper’s DOI or journal-issued serial number; if it’s meant for use with a particular version of a code or data version control repo, that’s a good choice too - whatever will help you understand what this particular image is intended for.
+
+Push your image to the repository you created
+
+docker push yourhubusername/verse_gapminder
+
+Need to check from docker-compose ps, and remove all old images with this command docker-compose rm, then rebuild again.

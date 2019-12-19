@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="javaCollection" class="com.practice.JavaCollection">
+        <property name="addressList">
+            <list>
+                <value>Colorado</value>
+                <value>Washington</value>
+                <value>New York</value>
+                <value>Seatle</value>
+            </list>
+        </property>
+        <property name="addressSet">
+            <list>
+                <value>Sirutar</value>
+                <value>New York</value>
+                <value>Seatle</value>
+            </list>
+        </property>
+        <property name="addressMap">
+            <map>
+                <entry key="1" value="Colorado"/>
+                <entry key="2" value="Bali"/>
+                <entry key="3" value="Brisbane"/>
+
+            </map>
+        </property>
+
+        <property name = "addressProp">
+            <props>
+                <prop key = "one">INDIA</prop>
+                <prop key = "one">INDIA</prop>
+                <prop key = "two">Pakistan</prop>
+                <prop key = "three">USA</prop>
+                <prop key = "four">USA</prop>
+            </props>
+        </property>
+
+    </bean>
+
+</beans>
